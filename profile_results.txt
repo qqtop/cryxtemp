@@ -1,0 +1,10 @@
+total executions of each stack trace:
+Entry: 1/21 Calls: 3/23 = 13.04% [sum: 3; 3/23 = 13.04%]
+  ioselectors_epoll.nim: newSelector 3/23 = 13.04%
+  asyncdispatch.nim: newDispatcher 3/23 = 13.04%
+  asyncdispatch.nim: getGlobalDispatcher 3/23 = 13.04%
+  asyncdispatch.nim: register 3/23 = 13.04%
+  asyncdispatch.nim: createAsyncNativeSocket 3/23 = 13.04%
+  asyncnet.nim: newAsyncSocket 3/23 = 13.04%
+  cxserver.nim: newServer 3/23 = 13.04%
+  cxserver.nim: cxserver 22/23 = 95.65%
